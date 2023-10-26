@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Dancing+Script&family=Poppins:wght@300&display=swap');
+*{
+margin:0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+.cakeheading{
+margin-top: 0.5rem;
+font-size: 40px;
+font-family: 'Dancing Script', cursive;
+}
+.dsc{
+text-align: center;
+}
+.container{
+text-align: center;
+font-family: 'Dancing Script', cursive;
+margin-top:1rem;
+background-color: #FEF9F3;
+}
+
+.cakeContainer{
+margin-bottom: 2rem;
+margin-top: 2.5rem;
+}
+.classimg{
+width:100px;
+height: 100px;
+margin-right: 1rem;
+animation: all 1s linear;
+cursor: pointer;
+}
+
+.classimgBorder{
+border: 2px solid rgb(218, 148, 20);
+border-radius:8px;
+}
+.cakeInfo{
+width:300px;
+display: inline-block;
+box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+padding: 1.2rem 2rem;
+box-sizing: border-box;
+}
+.cakePrice{
+display: flex;
+justify-content: space-between;
+padding: 1rem auto;
+margin-top: 1rem;
+}
+.pricebg{
+background-color: #F7D9EB;
+padding: 0.2rem;
+border-radius: 4px;
+}
+.ratebg{
+padding: 0.5rem;
+border-radius: 50%;
+box-shadow: 2px 5px 10px rgba(37, 28, 28, 0.7);
+}
+
+.cont{
+display: flex;
+font-family: 'Rajdhani', sans-serif;
+align-items: end;
+background-image: url(https://www.shutterstock.com/image-photo/close-colorful-macaroons-background-260nw-1074209768.jpg);
+font-size: 30px;
+text-decoration: none;
+}
+.brand{
+font-size: 45px;
+font-weight: bold;
+font-family: 'Dancing Script', cursive;
+}
+.link{
+font-family: 'Rajdhani', sans-serif;
+text-decoration: none;
+color: #FDAF63;
+font-weight: bold;
+}
+.link:hover{
+color: #BD95BB;
+}
+
